@@ -1,0 +1,23 @@
+//java is platform independent- can run on any platform
+//every java file is a class
+
+public class First{
+//we have to create a function in this class
+public static void main(String[] args){ //same as int main in C/CPP
+System.out.println("Hello World!"); //printing statement
+}
+}
+
+
+//Explanation-
+//public - accessible everywhere
+//file name and class name should be same
+//class name starts with capital letter
+
+
+//static - method belongs to the class, not objects, so it can be called without creating an object.
+// main function is entry point
+// String[] args - This allows the program to accept command-line arguments as an array of Strings.
+
+
+//system is class and out is variable
