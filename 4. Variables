@@ -1,0 +1,22 @@
+// A variable is a container used to hold data 
+//each variable should be given a unique name
+
+import java.util.Scanner;
+
+public class variable {
+    public static void main(String[] args) {
+        //variable - value of a and b can be changed
+        int a=25;
+        int b=10;
+        System.out.println(2*(a+b));
+
+
+      //Sum of two numbers
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int sum=x+y;
+        System.out.println("SUM : " + sum);
+sc.close();
+    }
+}
