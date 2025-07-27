@@ -1,0 +1,12 @@
+//A constant is a variable in java which has a fixed value 
+
+import java.util.Scanner;
+
+public class userinput {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next();
+        System.out.println("Name: "+ name);
+        sc.close();
+    }
+}
