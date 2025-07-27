@@ -1,10 +1,17 @@
-//java is platform independent- can run on any platform
+//java is platform independent - can run on any platform
 //every java file is a class
+
+import java.util.Scanner;
 
 public class First{
 //we have to create a function in this class
 public static void main(String[] args){ //same as int main in C/CPP
-System.out.println("Hello World!"); //printing statement
+    System.out.println("Hey, How are you");
+    Scanner input= new Scanner(System.in); //user input
+System.out.println(input.nextLine()); //printing statement
+
+input.close(); // Close scanner to avoid warning
+
 }
 }
 
@@ -21,3 +28,9 @@ System.out.println("Hello World!"); //printing statement
 
 
 //system is class and out is variable
+
+
+//User input
+//Scanner is a class
+//new is a keyword
+//System.in refers to keyboard from where i am taking input
