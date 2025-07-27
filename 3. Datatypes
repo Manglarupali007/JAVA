@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Datatype {
+    public static void main(String[] args) {
+
+        // primitive datatypes - that can't be further divided 
+        int rollno = 702;
+        char ch = 'R';
+        float marks = 98.67f;
+        double large = 345678.34567; // large decimal values
+        long value = 123456789L; // large integer values 
+        boolean check = true;
+
+        //user input -integer
+        Scanner input=new Scanner(System.in); 
+        System.out.print("Enter a number: ");
+        int num=input.nextInt();
+
+
+        //Output:
+        System.out.println(rollno);
+        System.out.println(ch);
+        System.out.println(marks);
+        System.out.println(large);
+        System.out.println(value);
+        System.out.println(check);
+        System.out.println("Your Number is: "+ num); //print whatever get from user input
+
+        input.close(); // Close scanner to avoid warning
+    }
+}
+
+
+
+//Datatypes are of 2 types - primitive and non-primitive
+
+//Primitive:- 8 Types (datatypes of fixed size)
+// int - 4 bytes
+// float - 4 bytes
+// double - 8 bytes
+// long - 8 bytes
+// char - 2 byte
+// boolean - 1 byte
+//byte - 1 byte
+//short - 2 byte
+
+
+
+
+//Non-Primitive:- 5 Types (variable size and declared with new keyword)
+// string 
+// array
+// class
+// object
+// interface
