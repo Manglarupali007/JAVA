@@ -1,0 +1,23 @@
+JAVA developed by James Gosling in 1991
+Earlier its name was Oak
+Owner of Java - Oracle 
+
+Principle - WORA (Write once, run anywhere)
+
+
+Features:
+1. Platform independent
+2. Simple & secure - no use of pointers,  have inbuilt features for security
+3. Robust - error handling
+4. Multithreaded - can run parallel tasks
+5. High Performance - due to JIT compiler of JVM
+
+
+
+JVM - java virtual machine - execute java bytecode
+JRE - java runtime environment - JVM + libraries to execute at run time
+JDK - java development kit - compiler/ Debugger
+
+
+
+
